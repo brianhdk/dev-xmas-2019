@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMAS2019.Api", "src\XMAS2019.Api\XMAS2019.Api.csproj", "{8504D928-CB53-43C9-BC42-7D7047E8C744}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMAS2019.Domain", "src\XMAS2019.Domain\XMAS2019.Domain.csproj", "{0AAEE0A9-530D-4E20-83A2-918BD5EEC337}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ABACCBC3-7003-46B8-8F91-276448F3727A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8504D928-CB53-43C9-BC42-7D7047E8C744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8504D928-CB53-43C9-BC42-7D7047E8C744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8504D928-CB53-43C9-BC42-7D7047E8C744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8504D928-CB53-43C9-BC42-7D7047E8C744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AAEE0A9-530D-4E20-83A2-918BD5EEC337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAEE0A9-530D-4E20-83A2-918BD5EEC337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAEE0A9-530D-4E20-83A2-918BD5EEC337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAEE0A9-530D-4E20-83A2-918BD5EEC337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBF25458-7F98-4845-8E50-4206CC288C5B}
+	EndGlobalSection
+EndGlobal
