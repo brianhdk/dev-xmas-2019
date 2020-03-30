@@ -17,8 +17,7 @@ namespace XMAS2019.Domain.Services
 
         public ToyDistributionProblemRepository()
         {
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse(
-                "DefaultEndpointsProtocol=https;AccountName=xmas2019;AccountKey=FBQH4V5mPfZ54bHs0EyUaUsIDDscQQwP+5lByN0wpdFREfdHoVlzWMTxQ0HfLhfgiLZGGSK45I7ZbSvce3TPHQ==;EndpointSuffix=core.windows.net");
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("...");
 
             _client = storageAccount.CreateCloudBlobClient();
             
